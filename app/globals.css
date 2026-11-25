@@ -24,3 +24,21 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Thumbtack Reviews Widget */
+#tt-review-widget-star #tt-dynamic {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex-wrap: nowrap !important;
+  gap: 3px !important;
+}
+
+#tt-review-widget-star #tt-dynamic img {
+  display: inline-block !important;
+  width: 18px !important;
+  height: 18px !important;
+  margin: 0 !important;
+  vertical-align: middle !important;
+  flex: 0 0 auto !important;
+}
