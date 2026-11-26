@@ -15,9 +15,10 @@ export default function ContactForm() {
       `Message: ${data.get("message") || "Not provided"}`
     ].join("\n");
 
-    const url = `https://wa.me/17747771123?text=${encodeURIComponent(message)}`;
+    const phone = "+17747771123";
+    const url = `sms:${phone}?body=${encodeURIComponent(message)}`;
 
-    window.open(url, "_blank", "noopener,noreferrer");
+    window.location.href = url;
   }
 
   return (
