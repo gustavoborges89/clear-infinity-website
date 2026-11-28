@@ -615,6 +615,101 @@ export default function Home() {
 
       {/* CONTACT SECTION */}
      
+      {/* SOCIAL MEDIA SECTION */}
+      <section className="bg-white px-6 py-20">
+        <div className="mx-auto max-w-7xl">
+
+          <div className="mb-12 text-center">
+            <p className="font-semibold tracking-[3px] text-blue-600">
+              STAY CONNECTED
+            </p>
+
+            <h2 className="mt-4 text-4xl font-bold text-slate-900 md:text-5xl">
+              Follow Clear Infinity
+            </h2>
+
+            <p className="mx-auto mt-5 max-w-2xl text-slate-500">
+              Follow our journey, discover cleaning transformations
+              and stay connected with our latest work.
+            </p>
+          </div>
+
+          <div className="mx-auto grid max-w-3xl gap-6 md:grid-cols-2">
+
+            <a
+              href="https://www.instagram.com/clear_infinity/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Follow Clear Infinity on Instagram"
+              className="group rounded-2xl border border-slate-200 bg-white p-8 text-center shadow-sm transition hover:-translate-y-2 hover:shadow-xl"
+            >
+              <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-2xl bg-pink-50 text-pink-600 transition group-hover:scale-110">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="1.8"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <rect x="3" y="3" width="18" height="18" rx="5" />
+                  <circle cx="12" cy="12" r="4" />
+                  <circle cx="17.5" cy="6.5" r=".5" fill="currentColor" />
+                </svg>
+              </div>
+
+              <h3 className="mt-6 text-xl font-bold text-slate-900">
+                Instagram
+              </h3>
+
+              <p className="mt-2 text-slate-500">
+                @clear_infinity_
+              </p>
+
+              <span className="mt-6 inline-block font-semibold text-blue-600">
+                Follow Us →
+              </span>
+            </a>
+
+            <a
+              href="https://www.facebook.com/profile.php?id=61561062815183"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Visit Clear Infinity on Facebook"
+              className="group rounded-2xl border border-slate-200 bg-white p-8 text-center shadow-sm transition hover:-translate-y-2 hover:shadow-xl"
+            >
+              <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-2xl bg-blue-50 text-blue-600 transition group-hover:scale-110">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path d="M13.5 21v-8h2.7l.4-3h-3.1V8.1c0-.9.3-1.5 1.6-1.5h1.6V3.9c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3V10H7.2v3h2.8v8h3.5Z" />
+                </svg>
+              </div>
+
+              <h3 className="mt-6 text-xl font-bold text-slate-900">
+                Facebook
+              </h3>
+
+              <p className="mt-2 text-slate-500">
+                Clear Infinity
+              </p>
+
+              <span className="mt-6 inline-block font-semibold text-blue-600">
+                Visit Our Page →
+              </span>
+            </a>
+
+          </div>
+        </div>
+      </section>
+
       {/* CONTACT SECTION */}
       <section id="contact" className="bg-slate-950 px-6 py-24">
         <div className="mx-auto grid max-w-7xl items-center gap-14 md:grid-cols-2">
