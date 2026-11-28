@@ -637,7 +637,7 @@ export default function Home() {
           <div className="mx-auto grid max-w-3xl gap-6 md:grid-cols-2">
 
             <a
-              href="https://www.instagram.com/clear_infinity/"
+              href="https://www.instagram.com/clear_infinity_/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Follow Clear Infinity on Instagram"
